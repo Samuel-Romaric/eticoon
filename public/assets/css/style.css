@@ -176,7 +176,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #df3040;
   text-decoration: none;
 }
 
@@ -678,7 +679,8 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background:  #c11b2a ;
 }
 
 .services .icon i {
@@ -699,15 +701,17 @@ section {
 
 .services .icon-box:hover .icon {
   background: #fff;
-  border: 2px solid #f03c02;
+  border: 2px solid  #c11b2a ;
 }
 
 .services .icon-box:hover .icon i {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #c11b2a;
 }
 
 .services .icon-box:hover .title a {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #c11b2a;
 }
 
 .services .description {
@@ -891,10 +895,9 @@ section {
 }
 
 .about-us .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  /*background: url("../img/about.jpg") center center no-repeat;*/
   background-size: cover;
-  min-height: 400px;
-  height: 40px;
+  min-height: 360px;
 }
 
 @media (max-width: 991px) {
@@ -915,7 +918,7 @@ section {
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
-.team .member {
+/*.team .member {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -986,7 +989,7 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
-
+*/
 /*--------------------------------------------------------------
 # Our Skills
 --------------------------------------------------------------*/
@@ -2075,7 +2078,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fd6f41;
+  /*color: #fd6f41;*/
+  color: #c11b2a;
   font-size: 18px;
   line-height: 1;
 }
@@ -2099,7 +2103,8 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #fd6f41;
+  /*color: #fd6f41;*/
+  color: #c11b2a;
 }
 
 #footer .footer-newsletter {
@@ -2138,7 +2143,8 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #c11b2a;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2146,7 +2152,8 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #fd5c28;
+  /*background: #fd5c28;*/
+  background: #df3040;
 }
 
 #footer .credits {
@@ -2158,7 +2165,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #df3040;
   color: #fff;
   line-height: 1;
   padding: 8px 0;

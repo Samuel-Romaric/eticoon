@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => 'Accueil'])
 
 @section('slide')
 
@@ -61,8 +61,6 @@
 @stop
 
 
-
-
 @section('content')
 
     <!-- ======= Cta Section ======= -->
@@ -74,9 +72,9 @@
             <h3>Au titre de l'année 2020 <span>200 etudiants</span> formés!</h3>
             <p> Dépuis de nombreuses année, {{ config('app.name') }}, participe à la formation de nomnbreux cadres et professionnelles du monde informatique un peu partout dans le monde. Une mission qu'il s'est assigné et dont il en est véritablement fière au vu de ses différents résultats.</p>
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Request a quote</a>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -87,7 +85,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Que faire <strong> {{ config('app.name') }} ?</strong></h2>
+          <h2>Que fait <strong> {{ config('app.name') }} ?</strong></h2>
           <h3>Delmas N.K., Fondateur de {{ config('app.name') }} Cyberdefense :</h3>
           <p>Référent national Cybersecurité – CPME (Confédération des Petites et Moyennes Entreprises), Président de Clusir PACA (Club de la sécurité des Systèmes d’Information Régional) et conférencier… autant de casquettes qui font d’Ely de Travieso un visionnaire de la cybersécurité.  Son expertise de plus de 20 ans vous apportera sans conteste une valeur ajoutée indéniable. </p>
         </div>
@@ -127,7 +125,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Check out <strong>our services</strong></h2>
+          <h2><strong>Nos services</strong></h2>
         </div>
 
         <div class="row">

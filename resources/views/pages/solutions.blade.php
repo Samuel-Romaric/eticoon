@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => 'Solutions'])
 
 @section('breadcrumbs')
 
@@ -56,156 +56,149 @@
         </div>
     </section><!-- End Our Clients Section -->
 
+<!-- ===================================================================================================== -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
+<!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog offset-md-3">
       <div class="container">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Assistance technique en sécurité du système d’information pour les grands comptes Paris</h3>
-              <p data-aos="fade-up">
-                GUARDEA met à disposition son expertise pour accompagner les entreprises dans la sécurisation de leurs systèmes d’informations. Et, ceci sur l’ensemble des besoins informatiques : de la protection du matériel informatique à la sensibilisation du personnel, managée par une équipe projet dédiée. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+        <div class="row">
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Accompagnement gestion des risques numériques L'agilité au cœur de notre fonctionnement</h3>
-              <p data-aos="fade-up">
-                GUARDEA intègre dans son organisation un processus d’amélioration continu permettant de s’adapter aux besoins de ses clients et de réagir très rapidement aux risques numériques auxquels ils sont confrontés.  
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+          <div class="col-md-6 col-lg-8 entries">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">L’innovation, une valeur incontournable pour la sécurité numérique de nos clients grands comptes</h3>
-              <p data-aos="fade-up">
-                L’innovation est une de nos valeurs fondatrices. GUARDEA est née d’un groupe de quelques experts en sécurité passionnés par leur métier et désireux de répondre aux enjeux des risques numériques.  
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+            <article class="entry" data-aos="fade-up">
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">La protection du matériel informatique pour les Grands comptes</h3>
-              <p data-aos="fade-up">
-                La protection des systèmes et des réseaux implique des mesures de sécurité à la fois techniques et organisationnelles. Guardea vous accompagne dans cette démarche en vous proposant une solution complète de protection pérenne de l’ensemble des composantes de votre réseau d’informations. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+              <div class="entry-img">
+                <img src="assets/img/solution-1.jpg" alt="" class="img-fluid">
+              </div>
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Un audit de sécurité simplifié et efficace pour Grands Comptes</h3>
-              <p data-aos="fade-up">
-                Protéger son entreprise des risques liés au numérique grâce à la détection par les meilleurs experts des vulnérabilités de son système informatique grâce a BugbountyZone, un audit qui s'adapte à tout type d’entreprise (grands comptes, PME, TPE, administrations).  
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Assistance technique en sécurité du système d’information pour les grands comptes Paris.</a>
+              </h2>
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">La Gestion des Incidents des Systèmes d’Information des grands comptes</h3>
-              <p data-aos="fade-up">
-                Poursuivre vos activités même en cas d'attaque malveillante, tel est l'objectif de la Gestion des Incidents. GUARDEA vous accompagne dans cette démarche devenue indispensable pour la sécurité de vos infrastructures.
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  GUARDEA met à disposition son expertise pour accompagner les entreprises dans la sécurisation de leurs systèmes d’informations. Et, ceci sur l’ensemble des besoins informatiques : de la protection du matériel informatique à la sensibilisation du personnel, managée par une équipe projet dédiée.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-2.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Accompagnement gestion des risques numériques L'agilité au cœur de notre fonctionnement.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  GUARDEA intègre dans son organisation un processus d’amélioration continu permettant de s’adapter aux besoins de ses clients et de réagir très rapidement aux risques numériques auxquels ils sont confrontés.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">L’innovation, une valeur incontournable pour la sécurité numérique de nos clients grands comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  L’innovation est une de nos valeurs fondatrices. GUARDEA est née d’un groupe de quelques experts en sécurité passionnés par leur métier et désireux de répondre aux enjeux des risques numériques.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">La protection du matériel informatique pour les Grands comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  La protection des systèmes et des réseaux implique des mesures de sécurité à la fois techniques et organisationnelles. Guardea vous accompagne dans cette démarche en vous proposant une solution complète de protection pérenne de l’ensemble des composantes de votre réseau d’informations.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Un audit de sécurité simplifié et efficace pour Grands Comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Protéger son entreprise des risques liés au numérique grâce à la détection par les meilleurs experts des vulnérabilités de son système informatique grâce a BugbountyZone, un audit qui s'adapte à tout type d’entreprise (grands comptes, PME, TPE, administrations).
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">La Gestion des Incidents des Systèmes d’Information des grands comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Poursuivre vos activités même en cas d'attaque malveillante, tel est l'objectif de la Gestion des Incidents. GUARDEA vous accompagne dans cette démarche devenue indispensable pour la sécurité de vos infrastructures.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->            
+
+          </div><!-- End blog entries list -->
+
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End Blog Section -->
+
+<!--    =============================================  END =============================================== -->
 
 @stop

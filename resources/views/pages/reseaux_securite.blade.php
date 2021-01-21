@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => 'Réseaux'])
 
 @section('breadcrumbs')
 
@@ -22,7 +22,7 @@
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
           <p>
-            « En 2019, le Forum Economique Mondial a reconnu la cybercriminalité comme un risque majeur, au même titre que les catastrophes naturelles et les effets du changement climatique. A raison, puisque les entreprises, des TPE aux grands groupes, ont souffert de piratages, de braquages digitaux et de violations des données. En 2017, 67 % des entreprises au niveau mondial ont fait l’objet d’au moins une attaque. En France, elles étaient 8 entreprises sur 10 en 2018. » (source : www.hbrfrance.fr)
+            « En 2019, le Forum Economique Mondial a reconnu la cybercriminalité comme un risque majeur, au même titre que les catastrophes naturelles et les effets du changement climatique. A raison, puisque les entreprises, des TPE aux grands groupes, ont souffert de piratages, de braquages digitaux et de violations des données. En 2017, 67 % des entreprises au niveau mondial ont fait l’objet d’au moins une attaque. En France, elles étaient 8 entreprises sur 10 en 2018. » 
           </p>
 
           <p>
@@ -78,239 +78,210 @@
         </div>
     </section><!-- End Our Clients Section -->
 
+<!-- ===================================================================================================== -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
+<!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog offset-md-3">
       <div class="container">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Le Dark Web : une source d’informations pour améliorer sa cyberdéfense</h3>
-              <p data-aos="fade-up">
-                Lorsque nous naviguons sur Internet, on ne se doute pas qu’il existe un monde parallèle où s’échangent des milliards d’informations parfois illégales mais aussi nécessaires dans certains cas. Cette face cachée d’Internet appelée « Darkweb » souvent perçue comme étant dangereuse, constitue pourtant une source d’informations des risques et des menaces et un outil préventif redoutable de sécurité informatique.
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+        <div class="row">
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">La protection des postes de travail: règles élémentaires de sécurité pour les grands comptes</h3>
-              <p data-aos="fade-up">
-                Les risques d’intrusion étant de plus en plus importants, la protection des postes de travail devient alors de plus en plus pointilleuse car ces derniers constituent un point d’entrée particulièrement apprécié des utilisateurs malveillants. Petit tour d’horizon sur les principales règles à mettre en place pour prévenir toute menace. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+          <div class="col-md-6 col-lg-8 entries">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">RGPD et cybersécurité : petite mise au point pour les grands comptes</h3>
-              <p data-aos="fade-up">
-                Le règlement général sur la protection des données (RGPD) exige des entreprises de connaître le lieu, la date et le type de données collectées, ainsi que leurs modalités de collecte et de stockage. Ceci constitue le patrimoine informationnel à protéger grâce aux mesures de sécurité incombant à la cybersécurité. Découvrons comment cette dernière est votre meilleur allié dans la mise en conformité au RGPD. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+            <article class="entry" data-aos="fade-up">
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Le SIEM, une solution indispensable pour la protection du Système d’Information des grands comptes</h3>
-              <p data-aos="fade-up">
-                Le SIEM « Security Information and Event Management » est une solution avancée de protection des données qui permet de collecter et d’analyser en temps réel des menaces informatiques. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+              <div class="entry-img">
+                <img src="assets/img/solution-1.jpg" alt="" class="img-fluid">
+              </div>
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Sensibilisation à la sécurité des systèmes d’information pour Grands Comptes</h3>
-              <p data-aos="fade-up">
-                La sécurité des SI ou tout simplement sécurité informatique regroupe l’ensemble des moyens techniques, juridiques, organisationnelles et humains mis en œuvre pour assurer un niveau de protection optimum des informations d’une entreprise quel que soit sa taille, son statut et son activité (grand compte, PME, collectivité, etc.). Désormais toutes les entreprises sont menacées, et l’ensemble des utilisateurs sont concernés par la sécurité, ne laissant plus ce seul rôle au service informatique. Pour comprendre avant de faire votre choix en matière de protection, petit tour d’horizon des grands principes de la sécurité informatique.  
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Le Dark Web : une source d’informations pour améliorer sa cyberdéfense</a>
+              </h2>
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">L’analyse des risques des Systèmes d’Information pour Grands Comptes (Ebios, Iso27xxx)</h3>
-              <p data-aos="fade-up">
-                L’analyse des risques des systèmes d’information permet d’identifier l’ensemble des risques et leurs impacts pour définir des objectifs de sécurité spécifiques aux métiers de l’entreprise, dans l’utilisation des outils numériques. Elle s’inscrit généralement dans la construction d’une politique de sécurité des systèmes d’information PSSI. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Lorsque nous naviguons sur Internet, on ne se doute pas qu’il existe un monde parallèle où s’échangent des milliards d’informations parfois illégales mais aussi nécessaires dans certains cas. Cette face cachée d’Internet appelée « Darkweb » souvent perçue comme étant dangereuse, constitue pourtant une source d’informations des risques et des menaces et un outil préventif redoutable de sécurité informatique.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">La politique de Sécurité des Systèmes d’Information pour Grands Comptes</h3>
-              <p data-aos="fade-up">
-                La mise en œuvre d’une politique de sécurité (PSSI) est une démarche constructive pour l’entreprise. Elle fixe les règles de protection de l’ensemble du système d’information de l’entreprise et pas seulement de sa sécurité. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
-        </div>
+            </article><!-- End blog entry -->
 
-        <div class="row no-gutters">
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Audit de mise en conformité RGPD/GDPR pour Grands Comptes et PME</h3>
-              <p data-aos="fade-up">
-                L’audit de mise en conformité RGPD/GDPR a pour objectif d’adapter votre organisation aux réglementations françaises et européennes tout en évaluant le niveau de sécurité des données personnelles de votre entreprise. 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-            </div><!-- End .content-->
-          </div>
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-        </div>
+            <article class="entry" data-aos="fade-up">
 
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">Grand comptes, ETI ou PME : maintenez votre activité informatique et protégez vos données en cas de sinistre grâce au PCA & PRA</h3>
-              <p data-aos="fade-up">
-                Maintenir en activité tout ou partie du Système d’Information de l’entreprise en cas de crise, c’est l’objectif du Plan de Continuité d’Activité (PCA) et du Plan de Reprise d’Activité (PRA). 
-                <a href="#" class="btn btn-primary">En savoir plus</a> 
-              </p>
-              <!-- <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <div class="entry-img">
+                <img src="assets/img/blog-2.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">La protection des postes de travail: règles élémentaires de sécurité pour les grands comptes</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Les risques d’intrusion étant de plus en plus importants, la protection des postes de travail devient alors de plus en plus pointilleuse car ces derniers constituent un point d’entrée particulièrement apprécié des utilisateurs malveillants. Petit tour d’horizon sur les principales règles à mettre en place pour prévenir toute menace.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">RGPD et cybersécurité : petite mise au point pour les grands comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Le règlement général sur la protection des données (RGPD) exige des entreprises de connaître le lieu, la date et le type de données collectées, ainsi que leurs modalités de collecte et de stockage. Ceci constitue le patrimoine informationnel à protéger grâce aux mesures de sécurité incombant à la cybersécurité. Découvrons comment cette dernière est votre meilleur allié dans la mise en conformité au RGPD.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Le SIEM, une solution indispensable pour la protection du Système d’Information des grands comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Le SIEM « Security Information and Event Management » est une solution avancée de protection des données qui permet de collecter et d’analyser en temps réel des menaces informatiques.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Sensibilisation à la sécurité des systèmes d’information pour Grands Comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  La sécurité des SI ou tout simplement sécurité informatique regroupe l’ensemble des moyens techniques, juridiques, organisationnelles et humains mis en œuvre pour assurer un niveau de protection optimum des informations d’une entreprise quel que soit sa taille, son statut et son activité (grand compte, PME, collectivité, etc.). Désormais toutes les entreprises sont menacées, et l’ensemble des utilisateurs sont concernés par la sécurité, ne laissant plus ce seul rôle au service informatique. Pour comprendre avant de faire votre choix en matière de protection, petit tour d’horizon des grands principes de la sécurité informatique.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
                 </div>
-              </div> -->
-            </div><!-- End .content-->
-          </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">L’analyse des risques des Systèmes d’Information pour Grands Comptes (Ebios, Iso27xxx).</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  L’analyse des risques des systèmes d’information permet d’identifier l’ensemble des risques et leurs impacts pour définir des objectifs de sécurité spécifiques aux métiers de l’entreprise, dans l’utilisation des outils numériques. Elle s’inscrit généralement dans la construction d’une politique de sécurité des systèmes d’information PSSI.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">La politique de Sécurité des Systèmes d’Information pour Grands Comptes.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  La mise en œuvre d’une politique de sécurité (PSSI) est une démarche constructive pour l’entreprise. Elle fixe les règles de protection de l’ensemble du système d’information de l’entreprise et pas seulement de sa sécurité.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Audit de mise en conformité RGPD/GDPR pour Grands Comptes et PME.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  L’audit de mise en conformité RGPD/GDPR a pour objectif d’adapter votre organisation aux réglementations françaises et européennes tout en évaluant le niveau de sécurité des données personnelles de votre entreprise.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" data-aos="fade-up">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title" data-aos="fade-left">
+                <a href="blog-single.html">Grand comptes, ETI ou PME : maintenez votre activité informatique et protégez vos données en cas de sinistre grâce au PCA & PRA.</a>
+              </h2>
+
+              <div class="entry-content" data-aos="fade-right">
+                <p>
+                  Maintenir en activité tout ou partie du Système d’Information de l’entreprise en cas de crise, c’est l’objectif du Plan de Continuité d’Activité (PCA) et du Plan de Reprise d’Activité (PRA).
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Savoir plus</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+
+          </div><!-- End blog entries list -->
+
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End Blog Section -->
 
 @stop

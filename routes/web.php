@@ -27,4 +27,6 @@ Route::get('formations', 'PagesController@formations')->name('formations');
 
 Route::get('temoins', 'PagesController@temoignages')->name('temoignages');
 
-Route::get('contact', 'PagesController@contact')->name('contact');
+Route::get('contact', 'ContactFormController@contact')->name('contact');
+
+Route::post('contact', 'ContactFormController@sendMail')->name('contact');
