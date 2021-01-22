@@ -37,7 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #cb2a39;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #fd5c28;
+  /*background: #fd5c28;*/
+  background: #e04755;
   transition: 0.3s ease-in-out;
 }
 
@@ -430,11 +432,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f03c02;
+  border: 2px solid #be2d3a;
 }
 
 #hero .btn-get-started:hover {
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #be2d3a;
   color: #fff;
   text-decoration: none;
 }
@@ -546,7 +549,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #2b2320;
+  /*background: #2b2320;*/
+  background: #df2d3d;
   min-height: 40px;
 }
 
@@ -566,7 +570,9 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fe825a;
+  /*color: #fe825a;*/
+  color: #0f0b0b;
+
 }
 
 .breadcrumbs ol li + li {
@@ -1569,7 +1575,8 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #be2634;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1578,7 +1585,8 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #fd541e;
+  /*background: #fd541e;*/
+  background: #e04755;
 }
 
 .blog .entry .entry-content h3 {
