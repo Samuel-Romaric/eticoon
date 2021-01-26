@@ -87,7 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #ab0d1c;
   padding: 4px;
 }
 
@@ -106,7 +107,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #ab0d1c;
 }
 
 /*--------------------------------------------------------------
@@ -613,7 +615,8 @@ section {
 }
 
 .cta h3 span {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #ab0d1c;
 }
 
 .cta p {
@@ -750,7 +753,8 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #bd0e1e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1304,7 +1308,8 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #bd0e1e;
   float: left;
   width: 44px;
   height: 44px;
@@ -1332,11 +1337,12 @@ section {
 }
 
 .contact .info:hover i {
-  background: #f03c02;
+  /*background: #f03c02;*/
+  background: #bd0e1e;
   color: #fff;
 }
 
-.contact .php-email-form {
+/*.contact .php-email-form {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
@@ -1410,16 +1416,17 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-
-.contact .php-email-form button[type="submit"] {
-  background: #f03c02;
+*/
+/*.contact .php-email-form button[type="submit"] {*/
+  /*background: #f03c02;*/
+  /*background: #bd0e1e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
-
+*/
 .contact .php-email-form button[type="submit"]:hover {
   background: #fd5c28;
 }
@@ -1532,7 +1539,8 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #f03c02;
+  /*color: #f03c02;*/
+  color: #ab0d1c;
 }
 
 .blog .entry .entry-meta {
@@ -2187,7 +2195,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #fd5c28;
+  /*background: #fd5c28;*/
+  background: #e74150;
   color: #fff;
   text-decoration: none;
 }

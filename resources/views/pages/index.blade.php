@@ -24,8 +24,8 @@
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>Les activités et services</h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Savoir plus</a></div>
+              <p>Nos activités sont divers et varriées. {{ config('app.name') }} </p>
+              <div class="text-center"><a href="#services" class="btn-get-started">Savoir plus</a></div>
             </div>
           </div>
         </div>
@@ -34,9 +34,9 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/image-3.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Audite de securité</h2>
-              <p>L'info-gérance est l'une de nos particularités, une equipe de professionnelle constituée d'experts vous sera a disposition en vu de pouvoir résoudre vos probèmes.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Savoir plus</a></div>
+              <h2>Nos partenaires</h2>
+              <p>Pour ces différenters solutions techniques et operationnelle aporté à plusieurs organisme, eticoon dispose de nombreux partenaires un peu partout dans le monde.</p>
+              <div class="text-center"><a href="#partenaires" class="btn-get-started">Savoir plus</a></div>
             </div>
           </div>
         </div>
@@ -133,42 +133,42 @@
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="icofont-computer"></i></div>
               <h4 class="title"><a href="">Info-gérance</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Fasse au situation de perte de données, de piratage informatique, nos experts seront à même capable d'intervenir afin d'apporter des solutions tangibles.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+              <div class="icon"><i class="icofont-layout"></i></div>
               <h4 class="title"><a href="">Audite de securité SI</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <p class="description">La section audite et sécurité des systèmes d'informations a pour mission de prendre en charge la sécurité de votre SI en l'auditant et mettant place d'une politique de sécurité.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="icofont-earth"></i></div>
+              <div class="icon"><i class="icofont-network"></i></div>
               <h4 class="title"><a href="">Deploiement Réseau</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p class="description">Le réseau est au cours de la communication et le fonctionnement d'un SI. Router et Swintch CISCO, nous sommes votre solution.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="icofont-image"></i></div>
+              <div class="icon"><i class="icofont-certificate-alt-1"></i></div>
               <h4 class="title"><a href="">Conseils - Formations </a></h4>
-              <p class="description">Notre rôle est d'accompager tous nos partenaires par le biais du conseil de nos experts et leurs offir des formations de très haut niveau de rénommées mondial</p>
+              <p class="description">Notre rôle est d'accompager tous nos partenaires par le biais du conseil de nos experts et leurs offir des formations de très haut niveau de rénommées mondial.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="icofont-settings"></i></div>
+              <div class="icon"><i class="icofont-ui-settings"></i></div>
               <h4 class="title"><a href="">Maintenaces</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">Maintemance materiel et logiciel des ordinateurs de type Mac et bien d'autre types qu'ils soient aussi bien client ou serveur.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="icofont-tasks-alt"></i></div>
+              <div class="icon"><i class="icofont-search"></i></div>
               <h4 class="title"><a href="">Forensic et Investigation numeric</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p class="description">Suite à une attaque technologique sur vos SI, nous offrons la possibilitée de retrouver les coupable pour mieux situer les resposabilitées.</p>
             </div>
           </div>
         </div>
@@ -176,14 +176,13 @@
       </div>
     </section><!-- End Services Section -->
 
-
-    <!-- ======= Our Clients Section ======= -->
-    <!-- <section id="clients" class="clients">
+    <!-- ======= Our parteners Section ======= -->
+    <section id="partenaires" class="clients">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Our <strong>Clients</strong></h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Nos <strong>partenaires</strong></h2>
+          <p>{{ config('app.name') }} dipose de plusieurs partenaires un peu partout dans le monde.</p>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
@@ -238,7 +237,8 @@
 
         </div>
 
-      </div> -->
-    </section><!-- End Our Clients Section -->
+      </div> 
+    </section>
+    <!-- End Our Clients Section -->
 
 @stop

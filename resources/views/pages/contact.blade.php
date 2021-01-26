@@ -48,32 +48,32 @@
 
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
-            <form action="{{ route('contact') }}" method="post" role="form" class="">
+            <form action="{{ route('contact') }}" method="post" role="form" class="email-form">
               @csrf
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" value="{{ old('name') }}" />
                   <div class="validate">
-                    {!! $errors->first('name', '<p>:message</p>') !!}
+                    {!! $errors->first('name', '<p class="text-danger">:message</p>') !!}
                   </div>
                 </div>
                 <div class="col-md-6 form-group">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Votre mail" value="{{ old('email') }}" />
                   <div class="validate">
-                    {!! $errors->first('email', '<p>:message</p>') !!}
+                    {!! $errors->first('email', '<p class="text-danger">:message</p>') !!}
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" value="{{ old('subject') }}" />
                 <div class="validate">
-                  {!! $errors->first('subject', '<p>:message</p>') !!}
+                  {!! $errors->first('subject', '<p class="text-danger">:message</p>') !!}
                 </div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message">{{ old('message') }}</textarea>
                 <div class="validate">
-                  {!! $errors->first('message', '<p>:message</p>') !!}
+                  {!! $errors->first('message', '<p class="text-danger">:message</p>') !!}
                 </div>
               </div>
               <div class="text-center">

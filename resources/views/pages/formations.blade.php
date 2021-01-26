@@ -63,7 +63,6 @@
               <li data-filter=".filter-network">Réseaux</li>
               <li data-filter=".filter-os">Systèmes</li>
               <li data-filter=".filter-database">Databases</li>
-              <li data-filter=".filter-web">Dev. Web</li>
             </ul>
           </div>
         </div>
@@ -73,8 +72,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-security">
             <img src="{{ asset('assets/img/portfolio/cscu.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Sécurité Informatique</h4>
+              <p>Certified Secure Computer User</p>
               <a href="{{ asset('assets/img/portfolio/cscu.png') }}" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -83,8 +82,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <img src="{{ asset('assets/img/portfolio/cnd.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Sécurité Réseau</h4>
+              <p>Certified Network Defender</p>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -93,8 +92,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <img src="{{ asset('assets/img/portfolio/ccna.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
+              <h4>Réseau CISCO</h4>
+              <p>CISCO Routing & Switching</p>
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -103,8 +102,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-security">
             <img src="{{ asset('assets/img/portfolio/chfi.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
+              <h4>Forensic</h4>
+              <p>Computer Hacker Forensic Investigator</p>
               <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -113,8 +112,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-network">
             <img src="{{ asset('assets/img/portfolio/ccnp-routing-switching.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
+              <h4>Réseau CISCO</h4>
+              <p>CISCO Certified Network Professional</p>
               <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -123,8 +122,18 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-os">
             <img src="{{ asset('assets/img/portfolio/mpc.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
+              <h4>Microsoft</h4>
+              <p>Microsoft Profesional Certified</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-os">
+            <img src="{{ asset('assets/img/portfolio/rhce.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Système Linux</h4>
+              <p>Red Had Expert</p>
               <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -133,8 +142,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-os">
             <img src="{{ asset('assets/img/portfolio/comptia-pentest.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
+              <h4>Sécurité Système</h4>
+              <p>Comptia Certified</p>
               <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -143,8 +152,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-security">
             <img src="{{ asset('assets/img/portfolio/ceh.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
+              <h4>Sécurité Informatique</h4>
+              <p>Certified Ethical Hacker</p>
               <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -153,8 +162,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-database">
             <img src="{{ asset('assets/img/portfolio/oracle.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Base de données</h4>
+              <p>Oracle Certified</p>
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -163,8 +172,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-database">
             <img src="{{ asset('assets/img/portfolio/mysql.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Base de données</h4>
+              <p>MySQL Training</p>
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>

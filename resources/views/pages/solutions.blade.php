@@ -73,7 +73,7 @@
               </div>
 
               <h2 class="entry-title" data-aos="fade-left">
-                <a href="blog-single.html">Assistance technique en sécurité du système d’information pour les grands comptes Paris.</a>
+                <a href="blog-single.html">Assistance technique en sécurité du système d’information pour les grands comptes Abidjan.</a>
               </h2>
 
               <div class="entry-content" data-aos="fade-right">
